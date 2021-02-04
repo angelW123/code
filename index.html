@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    	
+		navigator.geolocation.getCurrentPosition((position)=>{
+			// 维度
+			let lat = position.coords.latitude;
+			// 经度
+			let lng = position.coords.longitude;
+			
+			alert(lat,lng)
+		})
+   		
+    </script>
+</head>
+<body>
+	
+</body>
+</html>
